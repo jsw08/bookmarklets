@@ -24,5 +24,6 @@
     box.remove();
   };
   
-  box.append(new btn("exit", exit))
+  box.append(new btn("exit", exit));
+  document.body.append(box);
 })()
